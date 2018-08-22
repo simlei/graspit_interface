@@ -1,0 +1,1 @@
+let t:Simleime_termcommand = printf('linitbash "%s" "%s"', "here", $mod_graspit_interface_root)

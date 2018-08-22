@@ -1,0 +1,6 @@
+runtime_require_layout_init here "$mod_catkin_root"
+layout_working_dir="$mod_graspit_interface_root"
+
+interface_startup() {
+    roslaunch graspit_interface graspit_interface.launch
+}
